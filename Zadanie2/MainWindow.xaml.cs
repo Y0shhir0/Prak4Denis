@@ -62,7 +62,7 @@ namespace Zadanie2
                 case 13:
                     dName = "король";
                     break;
-                default: 
+                default:  
                     dName = "туз";
                     break;
             }

@@ -12,5 +12,5 @@
         <Button Content="Нажми" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click" Width="75" Margin="249,255,0,0" Background="Red" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,104,0,0"  Text="Ответ:" RenderTransformOrigin="-4.155,-2.85" FontSize="18"></TextBlock>
         <TextBox TextWrapping="Wrap" Text="" x:Name="Otvet" Margin="341,101,219,185" FontSize="18"/>
-    </Grid> 
+    </Grid>   
 </Window>

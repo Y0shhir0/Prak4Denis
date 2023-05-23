@@ -40,7 +40,7 @@ namespace Zadanie5
                 k++;
             }
             Otvet.Text = $"K={k-1}\n Сумма={n}";
-
+             
         }
     }
 }

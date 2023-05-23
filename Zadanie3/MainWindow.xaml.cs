@@ -48,7 +48,7 @@ namespace Zadanie3
                     break;
                 case 4:
                     Otvet.Text = $"{S}\n";
-                    break; 
+                    break;  
             }
 
         }

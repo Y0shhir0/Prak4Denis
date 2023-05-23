@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Zadanie4"
         mc:Ignorable="d"
-     Title="Задание 4" Height="450" Width="800" Background="Aqua"> 
+     Title="Задание 4" Height="450" Width="800" Background="Aqua">  
     <Grid>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="N:" VerticalAlignment="Top" Margin="10,25,0,0" Height="35" Width="166" FontSize="18" />
         <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" x:Name="Vvod" Text="" VerticalAlignment="Top" Width="235" FontSize="18" Margin="338,25,0,0"/>

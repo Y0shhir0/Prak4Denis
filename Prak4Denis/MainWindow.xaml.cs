@@ -51,7 +51,7 @@ namespace Prak4Denis
                     }
                     break;
                 case 29:
-                    switch (m) 
+                    switch (m)  
                     {
                         case 4:
                         case 6:
