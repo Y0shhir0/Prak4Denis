@@ -30,27 +30,39 @@ namespace Zadanie3
             int d = Convert.ToInt32(Vvod.Text);
             int m = Convert.ToInt32(Vod.Text);
             double a, R1 ,R2 , S;
-            a = m;
-            R1 = a * Math.Sqrt(3 / 4);
-            R2 = 2 * R1;
-            S = a * a * Math.Sqrt(3 / 4);
-
+     
             switch (d)
             {
                 case 1:
-                    Otvet.Text += $"{a}\n";
+                    a = m;
+                    R1 = a * Math.Sqrt(3) / 4;
+                    R2 = 2 * R1;
+                    S = a * a * Math.Sqrt(3) / 4;
                     break;
                 case 2:
-                    Otvet.Text += $"{R1}\n";
+                    R1 = m;
+                    a = R1 * 4 / Math.Sqrt(3);
+                    R2 = 2 * R1;
+                    S = a * a * Math.Sqrt(3) / 4;
                     break;
                 case 3:
-                    Otvet.Text = $"{R2}\n";
+                    R2 = m;
+                    R1 = R2 / 2;
+                    a = R1 * 4 / Math.Sqrt(3);
+                    S = a * a * Math.Sqrt(3) / 4;
                     break;
-                case 4:
-                    Otvet.Text = $"{S}\n";
-                    break;  
+                default:
+                    S = m;
+                    a = Math.Sqrt(S * 4 / Math.Sqrt(3));
+                    R1 = a * Math.Sqrt(3) / 4;
+                    R2 = 2 * R1;
+                    break;
             }
 
+            Otvet.Text = $"a = {a:F2}, R1 = {R1:F2}, R2 = {R2:F2}, S = {S:F2}";
+
         }
+         
     }
 }
+

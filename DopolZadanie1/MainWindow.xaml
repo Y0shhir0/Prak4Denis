@@ -1,17 +1,18 @@
-﻿<Window x:Class="Zadanie6.MainWindow"
+﻿<Window x:Class="DopolZadanie1.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Zadanie6"
+        xmlns:local="clr-namespace:DopolZadanie1"
         mc:Ignorable="d"
-    Title="Задание 6" Height="450" Width="800" Background="Aqua">
+     Title="Дополнительное задание 1" Height="450" Width="800" Background="Aqua">
     <Grid>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="N:" VerticalAlignment="Top" Margin="10,25,0,0" Height="35" Width="166" FontSize="18" />
         <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" x:Name="Vvod" Text="" VerticalAlignment="Top" Width="235" FontSize="18" Margin="173,25,0,0"/>
-        <Button Content="Нажми" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click" Width="75" Margin="130,174,0,0" Background="Red" FontSize="18" RenderTransformOrigin="0.548,-1.648"/>
+        <Button Content="Нажми" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click" Width="75" Margin="10,156,0,0" Background="Red" FontSize="18" RenderTransformOrigin="0.548,-1.648"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,104,0,0"  Text="Ответ:" RenderTransformOrigin="-4.155,-2.85" FontSize="18"></TextBlock>
-        <TextBox TextWrapping="Wrap" Text="" x:Name="Otvet" Margin="176,104,384,277" FontSize="18"/>
-    </Grid>   
+        <TextBox TextWrapping="Wrap" Text="" x:Name="Otvet" Margin="176,104,384,235" FontSize="18"/>
+    </Grid>
 </Window>
+
  

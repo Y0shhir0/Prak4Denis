@@ -10,10 +10,10 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation; 
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Zadanie6
+namespace DopolZadanie3
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
@@ -24,28 +24,19 @@ namespace Zadanie6
         {
             InitializeComponent();
         }
-         
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            int a = Convert.ToInt32(Vvod.Text);
+            int b = Convert.ToInt32(Vod.Text);
 
-           
-            int n = Convert.ToInt32(Vvod.Text);
-          
-
-            bool m = false;
-            while (n > 0)
+            while(b>0)
             {
-                int digit = n % 10;
-                if (digit == 1)
-                {
-                    m = true;
-                    break;
-                }
-                n = n / 10;
+                int t = a;
+                a = b;
+                b = t % b;
             }
-
-            Otvet.Text = m ? "true" : "false";
+            Otvet.Text = $"Ответ:\nA={a}";
         }
     }
-
 }
